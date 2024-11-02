@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+html {
+    background-image: url(../images/bg-repeat.jpg);
+    background-size: 7vh;
+    font-family: "Roboto", serif;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100vh;
+}
+
+section {
+    width: 300px;
+    min-height: 111px;
+    margin-left: 50px;
+    margin-right: 60px;
+}
+
+nav {
+    background-color: #fff;
+    width: 100vh;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    padding: 12px 50px;
+    margin-top: 12px;
+    margin: 15px;
+}
+
+input {
+    width: 100%;
+    height: 36px;
+    margin-top: 15px;
+    align-content: start;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+input::placeholder {
+    position: absolute;
+    color: #A8A8A8;
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 5px;
+}
+
+.mensagem {
+    height: 111px;
+    display: flex;
+}
+
+.mensagem::placeholder {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    margin: 5px;
+}
+
+h1 {
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 11px;
+}
+
+h2 {
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+p {
+    color: red;
+    font-size: 8px;
+    font-weight: 400;
+}
+
+.mostrar {
+    opacity: 0;
+}
+
+h3 {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+button {
+    background-color: #3CCC87;
+    height: 42px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Desafio Html + CSS + JS - Intermediário</title>
 
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="stylesheet" href="src/css/reset.css">
@@ -11,17 +11,20 @@
 <body>
     <main>
         <section>
-            <h1>FICOU COM DÚVIDA? NOS MANDE UMA MENSAGEM!</h1>
+            <h1>FICOU COM DÚVIDA? <br>NOS MANDE UMA MENSAGEM!</h1>
 
             <h2>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</h2>
         </section>
 
         <nav>
-            <input type="text" id="nome" placeholder="Nome completo *">
-            <input type="email" id="email" placeholder="E-mail *">
-            <input type="tel" id="telefone" placeholder="Telefone *">
-            <input type="text" id="mensagem" placeholder="Mensagem *">
-            <h3>*Campos Obrigatórios</h3>
+            <input type="text" class="formulario" placeholder="Nome completo *"><p class="mostrar">campo obrigatório</p>
+            <input type="email" class="formulario" placeholder="E-mail *">
+            <p class="mostrar">campo obrigatório</p>
+            <input type="tel" class="formulario" placeholder="Telefone *">
+            <p class="mostrar">campo obrigatório</p>
+            <input type="text" class="formulario mensagem" placeholder="Mensagem *">
+            <p class="mostrar">campo obrigatório</p>
+            <h3>*campos obrigatórios</h3>
 
             <button>Enviar</button>
 
