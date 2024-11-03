@@ -2,8 +2,11 @@
 
 html {
     background-image: url(../images/bg-repeat.jpg);
-    background-size: 7vh;
     font-family: "Roboto", serif;
+    background-repeat: repeat-x;
+    background-position: cover;
+    background-size: contain;
+    min-height: 100vh;
 }
 
 main {
@@ -27,8 +30,7 @@ nav {
     display: flex;
     flex-direction: column;
     padding: 12px 50px;
-    margin-top: 12px;
-    margin: 15px;
+    margin: 12px 50px 12px 60px;
 }
 
 input {
@@ -73,14 +75,18 @@ h2 {
     font-weight: 400;
 }
 
-p {
-    color: red;
+label {
+    color: white;
     font-size: 8px;
     font-weight: 400;
 }
 
-.mostrar {
-    opacity: 0;
+.invalido {
+    color: red;
+}
+
+.valido {
+    border-color: green;
 }
 
 h3 {
@@ -97,4 +103,12 @@ button {
     color: white;
     font-size: 15px;
     font-weight: 700;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+}
+
+button:hover,
+button:active {
+    background-color: #A8A8A8;
+    opacity: 0.5;
+    cursor: pointer;
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,29 +9,38 @@
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="stylesheet" href="src/css/reset.css">
 </head>
+
 <body>
     <main>
         <section>
             <h1>FICOU COM DÚVIDA? <br>NOS MANDE UMA MENSAGEM!</h1>
 
-            <h2>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</h2>
+            <h2>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de
+                24h.</h2>
         </section>
 
         <nav>
-            <input type="text" class="formulario" placeholder="Nome completo *"><p class="mostrar">campo obrigatório</p>
-            <input type="email" class="formulario" placeholder="E-mail *">
-            <p class="mostrar">campo obrigatório</p>
-            <input type="tel" class="formulario" placeholder="Telefone *">
-            <p class="mostrar">campo obrigatório</p>
-            <input type="text" class="formulario mensagem" placeholder="Mensagem *">
-            <p class="mostrar">campo obrigatório</p>
+            <label for="nome">
+                <input type="text" id="nome" class="formulario" placeholder="Nome completo *">campo obrigatório</label>
+
+            <label for="email">
+                <input type="email" id="email" class="formulario" placeholder="E-mail *">campo obrigatório</label>
+
+            <label for="telefone">
+                <input type="tel" id="telefone" class="formulario" placeholder="Telefone *">campo obrigatório</label>
+
+            <label for="mensagem">
+                <input type="text" id="Mensagem" class="formulario mensagem" placeholder="Mensagem *">campo
+                obrigatório</label>
+
             <h3>*campos obrigatórios</h3>
 
-            <button>Enviar</button>
+            <button class="enviar">Enviar</button>
 
         </nav>
     </main>
-    
+
     <script src="src/js/validacao.js"></script>
 </body>
+
 </html>
