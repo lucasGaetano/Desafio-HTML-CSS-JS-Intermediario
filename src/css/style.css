@@ -52,7 +52,6 @@ input::placeholder {
 
 .mensagem {
     height: 111px;
-    display: flex;
 }
 
 .mensagem::placeholder {
@@ -76,13 +75,20 @@ h2 {
 }
 
 label {
-    color: white;
     font-size: 8px;
     font-weight: 400;
 }
 
-.invalido {
+p {
     color: red;
+}
+
+.mostrar {
+    display: none;
+}
+
+.invalido {
+    border-color: red;
 }
 
 .valido {
