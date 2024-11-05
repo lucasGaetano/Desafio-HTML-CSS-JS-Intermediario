@@ -13,6 +13,7 @@ function verificaSeOsCamposEstaoPreenchidos() {
             element.childNodes[1].classList.remove("invalido");
         } else {
             element.children[1].classList.remove("mostrar");
+            element.childNodes[1].classList.remove("valido");
             element.childNodes[1].classList.add("invalido");
         }
         
