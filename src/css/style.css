@@ -9,14 +9,14 @@ html {
     min-height: 100vh;
 }
 
-main {
+.container {
     display: flex;
     align-items: center;
     justify-content: center;
     min-width: 100vh;
 }
 
-section {
+.sessao-de-texto {
     width: 300px;
     min-height: 111px;
     margin-left: 50px;
@@ -35,7 +35,7 @@ nav {
 
 input {
     width: 100%;
-    height: 36px;
+    height: 35px;
     margin-top: 15px;
     align-content: start;
     border: 1px solid;
@@ -101,7 +101,7 @@ h3 {
     margin: 20px 0;
 }
 
-button {
+.btn-enviar {
     background-color: #3CCC87;
     height: 42px;
     border: none;
@@ -112,8 +112,8 @@ button {
     box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
 }
 
-button:hover,
-button:active {
+.btn-enviar:hover,
+.btn-enviar:active {
     background-color: #A8A8A8;
     opacity: 0.5;
     cursor: pointer;
